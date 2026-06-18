@@ -15,7 +15,7 @@ SECRET_KEY = os.environ.get(
 )
 
 # DEBUG=False на проде. На Railway переменную DEBUG не задаём (или ставим "False").
-DEBUG = os.environ.get('DEBUG', 'True') == 'True'
+
 
 # Railway даёт домен вида xxx.up.railway.app — добавляем его автоматически.
 ALLOWED_HOSTS = []
